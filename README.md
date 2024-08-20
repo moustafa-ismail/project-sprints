@@ -88,19 +88,5 @@ Access Jenkins via the Load Balancer URL. Configure Jenkins and install the nece
 
 ---
 
-This README is comprehensive and provides step-by-step guidance for setting up your project, including the essential Jenkins configuration for integrating with GitHub. If you need any more adjustments or additions, feel free to ask!
-```bash
-helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
-helm repo update
-helm install ingress-nginx ingress-nginx/ingress-nginx
-```
-
-## Deploy the Application Helm Chart
-
-To deploy your application using Helm, navigate outside the `sprints-app` folder and run:
-
-```bash
-helm install sprints-app ./sprints-app
-```
 
 
