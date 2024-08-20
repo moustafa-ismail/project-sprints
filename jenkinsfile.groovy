@@ -5,7 +5,7 @@ pipeline {
         stage('Get code from GitHub') {
             steps {
                 git branch: 'main',
-                    credentialsId: '0fb76644-59be-470a-a3dc-b73810d0c458',
+                    credentialsId: 'f5bdcde3-4b1e-4772-8df2-47f3b760970f',
                     url: 'https://github.com/moustafa-ismail/project-sprints'
                 sh 'cd Sprints_W5-_Final'
                 sh 'ls -altr'
